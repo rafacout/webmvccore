@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "eiPtcLb9LIbtI7YKmMF43JiiSbi39cYQ/s7Ufw43iDS8sXS956+z/UQJsTGUDpZXMO3R47Rt0m5pki6DFMFLew==",
+  "dgSpecHash": "2KdFz1nHO1scJBwZpWh0P9nExwbnuuoQxhlyvo96yK9ALvLxRpTZAxKqiD9qBp+S6CBJ9NqML4ZOC1aZnGMoAQ==",
   "success": true,
   "projectFilePath": "D:\\Git\\AppModelo\\src\\DevIO.IU.Web\\DevIO.IU.Web.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\rcoutinho\\.nuget\\packages\\buildbundlerminifier\\3.2.449\\buildbundlerminifier.3.2.449.nupkg.sha512",
     "C:\\Users\\rcoutinho\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\rcoutinho\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
     "C:\\Users\\rcoutinho\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\3.1.0\\microsoft.aspnetcore.razor.language.3.1.0.nupkg.sha512",

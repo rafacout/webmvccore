@@ -13,5 +13,11 @@ namespace DevIO.IU.Web.Areas.Produtos.Controllers
         {
             return View();
         }
+
+        [Route("produtos/busca")]
+        public IActionResult Busca()
+        {
+            return View();
+        }
     }
 }

@@ -12,6 +12,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.AspNetCore.Mvc.Razor;
 
 namespace DevIO.IU.Web
 {
@@ -26,13 +27,19 @@ namespace DevIO.IU.Web
 
         public void ConfigureServices(IServiceCollection services)
         {
+            services.Configure<RazorViewEngineOptions>(options =>
+            {
+                options.AreaViewLocationFormats.Clear();
+                options.AreaViewLocationFormats.Add("/Modulos/{2}/Views/{1}/{0}.cshtml");
+                options.AreaViewLocationFormats.Add("/Modulos/{2}/Views/Shared/{0}.cshtml");
+                options.AreaViewLocationFormats.Add("/Views/Shared/{0}.cshtml");
+            });
+
             services.Configure<CookiePolicyOptions>(options =>
             {
                 options.CheckConsentNeeded = context => true;
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
-
-
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }

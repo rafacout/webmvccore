@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Git\\AppModelo\\src\\DevIO.IU.Web\\DevIO.IU.Web.csproj": {}
+    "D:\\git\\webmvccore\\src\\DevIO.IU.Web\\DevIO.IU.Web.csproj": {}
   },
   "projects": {
-    "D:\\Git\\AppModelo\\src\\DevIO.IU.Web\\DevIO.IU.Web.csproj": {
+    "D:\\git\\webmvccore\\src\\DevIO.IU.Web\\DevIO.IU.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Git\\AppModelo\\src\\DevIO.IU.Web\\DevIO.IU.Web.csproj",
+        "projectUniqueName": "D:\\git\\webmvccore\\src\\DevIO.IU.Web\\DevIO.IU.Web.csproj",
         "projectName": "DevIO.IU.Web",
-        "projectPath": "D:\\Git\\AppModelo\\src\\DevIO.IU.Web\\DevIO.IU.Web.csproj",
-        "packagesPath": "C:\\Users\\rcoutinho\\.nuget\\packages\\",
-        "outputPath": "D:\\Git\\AppModelo\\src\\DevIO.IU.Web\\obj\\",
+        "projectPath": "D:\\git\\webmvccore\\src\\DevIO.IU.Web\\DevIO.IU.Web.csproj",
+        "packagesPath": "C:\\Users\\rafac\\.nuget\\packages\\",
+        "outputPath": "D:\\git\\webmvccore\\src\\DevIO.IU.Web\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\rcoutinho\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\rafac\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,6 +26,7 @@
         },
         "frameworks": {
           "netcoreapp2.2": {
+            "targetAlias": "netcoreapp2.2",
             "projectReferences": {}
           }
         },
@@ -37,6 +38,7 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
           "dependencies": {
             "Microsoft.AspNetCore.App": {
               "target": "Package",
@@ -67,7 +69,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }

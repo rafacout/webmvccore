@@ -42,6 +42,10 @@ namespace DevIO.IU.Web
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
+            services.AddDbContext<MeuDbContext>(options => {
+                options.UseSqlServer(Configuration.GetConnectionString("MeuDbContext"));
+            });
+
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
 
             services.AddTransient<IPedidoRepository, PedidoRepository>();

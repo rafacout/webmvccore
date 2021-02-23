@@ -1,1 +1,7 @@
-﻿Olá!
+﻿@using DevIO.IU.Web.Data
+@inject IPedidoRepository PedidoRepository
+
+Olá!
+
+
+@PedidoRepository.ObterPedido().Id

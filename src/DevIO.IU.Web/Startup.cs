@@ -13,6 +13,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.AspNetCore.Mvc.Razor;
+using DevIO.IU.Web.Data;
 
 namespace DevIO.IU.Web
 {
@@ -42,6 +43,8 @@ namespace DevIO.IU.Web
             });
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+
+            services.AddTransient<IPedidoRepository, PedidoRepository>();
         }
 
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)

@@ -49,6 +49,8 @@ namespace DevIO.IU.Web
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
 
             services.AddTransient<IPedidoRepository, PedidoRepository>();
+            
+            services.AddScoped<DbContext, MeuDbContext>();
         }
 
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
